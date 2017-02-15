@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-urgent',
-  templateUrl: './urgent.component.html',
-  styleUrls: ['./urgent.component.css']
+  selector: 'app-long-term',
+  templateUrl: './long-term.component.html',
+  styleUrls: ['./long-term.component.css']
 })
-export class UrgentComponent implements OnInit {
+export class LongTermComponent implements OnInit {
 
   shown: boolean = true;
 
@@ -17,5 +17,4 @@ export class UrgentComponent implements OnInit {
   hide() {
     this.shown = !this.shown;
   }
-
 }
